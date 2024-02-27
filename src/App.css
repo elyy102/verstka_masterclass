@@ -153,3 +153,10 @@ input::placeholder {
   background: #556832;
   border-radius: 15px;
 }
+
+.title {
+  color: #232323;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
