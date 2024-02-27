@@ -160,3 +160,53 @@ input::placeholder {
   font-weight: 500;
   margin-bottom: 40px;
 }
+
+.modal {
+  width: 100vw;
+  max-width: 600px;
+  background-color: #556832;
+  border-radius: 20px;
+  padding: 60px;
+  text-align: center;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  animation-name: appear;
+  animation-duration: 300ms;
+}
+
+.modal_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.p_modal_head {
+  font-size: 30px;
+  color: #FFFAF6;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.close_card {
+  background-color: transparent;
+  color: #FFFAF6;
+  font-size: 20px;
+  font-weight: 400;
+}
