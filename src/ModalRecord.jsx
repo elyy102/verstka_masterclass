@@ -6,10 +6,9 @@ const ModalRecord = ({ show, onCloseButtonClick }) => {
     return (
       <div className="modal-wrapper">
         <div className="modal">
-        <button className="close_card" onClick={onCloseButtonClick}>х</button>
-
           <div className="modal_head">
             <p className="p_modal_head">Запись</p>
+            <button className="close_card" onClick={onCloseButtonClick}>х</button>
           </div>
           <div className="modal_content">
             <input className='login_input' placeholder='Введите ФИО...' type="text" />

@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from "react"
 import  mk from './assets/mk-1.svg'
 import Modal from "./ModalRecord"
+import Modal_2 from "./ModalMore"
+
 
 export const Card = () => {
 
@@ -11,10 +13,17 @@ export const Card = () => {
   setShowModal(!showModal);
 };
 
+const [showModal2, setShowModal2] = useState(false);
+
+const toggleShowModal2 = () => {
+setShowModal2(!showModal2);
+};
+
   return (
     <div className="card">
         <div className="image_container">
-           <img src={mk} alt="" />
+          <Modal_2 show={showModal2} onCloseButtonClick={toggleShowModal2} />
+          <img src={mk} alt="" onClick={toggleShowModal2}/>
         </div>
         
         <p className="card_name">Мастер-класс по скульптуре в студии «Объём» </p>
