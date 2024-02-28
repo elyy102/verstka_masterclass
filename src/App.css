@@ -287,6 +287,23 @@ input::placeholder {
   font-size: 20px;
 }
 
+.modal-wrapper_profile {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  animation-name: appear;
+  animation-duration: 300ms;
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
 .footer {
   margin-top: 70px;
   text-align: center;
