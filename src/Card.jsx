@@ -24,6 +24,7 @@ setShowModal2(!showModal2);
         <div className="image_container">
           <Modal_2 show={showModal2} onCloseButtonClick={toggleShowModal2} />
           <img src={mk} alt="" onClick={toggleShowModal2}/>
+          <div class="card_price">1090Р</div>
         </div>
         
         <p className="card_name">Мастер-класс по скульптуре в студии «Объём» </p>

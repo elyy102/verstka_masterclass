@@ -10,8 +10,9 @@ const ModalProfileUser = ({ show, onCloseButtonClick }) => {
     return (
       <div className="modal-wrapper">
         <div className="profile_modal">
-            <div>
-            <span className="close_card" onClick={onCloseButtonClick}>х</span>
+          <div className="container">
+          <div>
+            <button className="close_card" onClick={onCloseButtonClick}>х</button>
             </div>
             <div className="info_name">
                 <img src={Person} alt="" className="profile_icon" />
@@ -28,6 +29,8 @@ const ModalProfileUser = ({ show, onCloseButtonClick }) => {
                 <img src={Paint} alt="" className="profile_icon" />
                 <h1 className="like">Мои мастер-классы</h1>
             </div>
+          </div>
+            <button className='logout_btn'>Выйти</button>
         </div>
       </div>
     );

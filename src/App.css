@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 * {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Spectral", serif;
   margin: 0;
   padding: 0;
 }
@@ -12,10 +12,10 @@ body{
 
 button {
   cursor: pointer;
-  padding: 15px 20px;
   width: fit-content;
   border: none;
   text-align: center;
+  box-shadow: inset 0px -4px 4px 0px rgba(0, 0, 0, 0.1),inset 0px 4px 4px 0px rgba(0, 0, 0, 0.1),0px -4px 4px 0px rgba(0, 0, 0, 0.1),0px 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper {
@@ -29,6 +29,11 @@ button {
   display: flex;
   justify-content: space-between;
   margin-bottom: 70px;
+}
+
+.link_logo {
+  margin: 0 auto;
+  text-decoration: none;
 }
 
 .logo {
@@ -94,6 +99,7 @@ input::placeholder {
 }
 
 .login_btn {
+  padding: 15px 20px;
   background-color: #FFFAF6;
   color: #232323;
   font-size: 18px;
@@ -147,6 +153,7 @@ input::placeholder {
 }
 
 .card_btn {
+  padding: 15px 20px;
   color: #FFFAF6;
   font-size: 18px;
   font-weight: 400;
@@ -196,6 +203,15 @@ input::placeholder {
   animation-name: appear;
   animation-duration: 300ms;
 }
+.modal_more {
+  width: 100vw;
+  max-width: fit-content;
+  background-color: #556832;
+  border-radius: 20px;
+  padding: 60px;
+  text-align: center;
+  color: #FFFAF6;
+}
 
 .modal_head {
   display: flex;
@@ -232,6 +248,7 @@ input::placeholder {
   justify-content: space-between;
   text-align: left;
   color: #FFFAF6;
+  gap: 50px;
 }
 
 .modal_content_more_1_h1 {
@@ -266,13 +283,13 @@ input::placeholder {
 }
 
 .name {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 500;
 
 }
 
 .email {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   text-align: left;
   margin-bottom: 5px;
@@ -307,4 +324,19 @@ input::placeholder {
 .footer {
   margin-top: 70px;
   text-align: center;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.logout_btn {
+  padding: 15px 20px;
+  background-color: #FFFAF6;
+  color: #232323;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }

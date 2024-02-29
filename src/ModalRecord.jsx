@@ -14,7 +14,7 @@ const ModalRecord = ({ show, onCloseButtonClick }) => {
             <input className='login_input' placeholder='Введите ФИО...' type="text" />
             <input  className='password_input' placeholder='Введите номер телефона...' type="password" />
             <input className='login_input' placeholder='Введите email...' type="email" />
-            <button className='login_btn'>Записаться</button>
+            <button className='logout_btn'>Записаться</button>
         </div>
         </div>
       </div>

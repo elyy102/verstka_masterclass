@@ -19,7 +19,7 @@ const ModalAddmk = ({ show, onCloseButtonClick }) => {
             <input className='login_input' placeholder='Адрес...' type="text" />
             <input className='login_input' placeholder='Образовательная тематика...' type="text" />
             <input className='login_input' placeholder='Возрастное ограничение...' type="text" />
-            <button className='login_btn'>Записаться</button>
+            <button className='logout_btn'>Добавить</button>
         </div>
         </div>
       </div>

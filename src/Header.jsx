@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useState } from "react"
 import  icon_profile from './assets/icon_profile.svg'
 import Modal_3 from "./ModalProfileUser"
@@ -14,7 +15,7 @@ export const Header = () => {
   return (
     <div className="wrapper">
       <div className="header">
-        <h1 className='logo'>master<span>Class</span></h1>
+        <Link to={'/'} className='link_logo'><h1 className='logo'>master<span>Class</span></h1></Link>
         <Modal_3 show={showModal3} onCloseButtonClick={toggleShowModal3} />
         <img className='profile_icon' src={icon_profile} alt="" onClick={toggleShowModal3} />
       </div>

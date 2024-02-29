@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Reg = () => {
   return (
@@ -13,7 +14,7 @@ export const Reg = () => {
             <input  className='password_input' placeholder='Введите пароль...' type="password" />
             <button className='login_btn'>Зарегистрироваться</button>
             <p className='login_p'>Уже есть аккаунт? 
-                <a href=""> Войти</a>
+            <Link to={'/login'}> Войти</Link>
             </p>
         </div>
     </div>
