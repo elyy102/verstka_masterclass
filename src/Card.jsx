@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from "react"
-import  mk from './assets/mk-1.svg'
+import  mk from './assets/mk-2.svg'
 import Modal from "./ModalRecord"
 import Modal_2 from "./ModalMore"
 
@@ -27,7 +27,7 @@ setShowModal2(!showModal2);
           <div class="card_price">1090Р</div>
         </div>
         
-        <p className="card_name">Мастер-класс по скульптуре в студии «Объём» </p>
+        <p className="card_name">Мастер-классы и обучающие курсы в мастерской «Ювелирный цех» </p>
         <p className="card_date">1 марта, 17.00</p>
         <div>
         <Modal show={showModal} onCloseButtonClick={toggleShowModal} />

@@ -10,7 +10,9 @@ function App() {
 
   return (
     <>
-    <Login />
+    <Header />
+    <Afisha />
+    <Footer />
     </>
   )
 }

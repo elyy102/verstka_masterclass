@@ -9,6 +9,8 @@ export const Afisha = () => {
             <Card />
             <Card />
             <Card />
+            <Card />
+            <Card />
         </div>
     </div>
   )
